@@ -115,6 +115,7 @@ always @(posedge clk or posedge rst) begin
 					packet_buffer_in[47:40]	<= flit_in;
 					flit_count_in		<= 1;
 					state_in		<= RECV_DATA;
+					data_valid		<= 0;
 				end
 			end
 
