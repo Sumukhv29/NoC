@@ -9,7 +9,7 @@ module NI(
 	output	reg		proc_ready,	//indicates NI is ready to accept new data	
 	
 	output	reg	[31:0]	data_out,	//data to processor
-	output	reg		data_valid,	//indicates data to the processor is valid 
+	output	reg		data_valid,	//indicates data from the processor is valid 
 	input			proc_ready_in,	//indicates processor is ready to accept the data
 
 	//NoC interface
